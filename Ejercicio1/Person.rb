@@ -1,9 +1,8 @@
 class Person
-    def initialize(first, last, age, type)
+    def initialize(first, last, age)
         @first_name = first
         @last_name = last
-        @age = age
-        @type = type
+        @age = age        
     end
     
     def birthday
