@@ -1,7 +1,7 @@
 require_relative 'Ave'
 require_relative 'Modulos'
 class Pato < Ave
-        include Caminante
-        include Nadador
-        include Herbivoro        
+        include Habilidades::Caminante
+        include Habilidades::Nadador
+        include Alimentacion::Herbivoro        
 end

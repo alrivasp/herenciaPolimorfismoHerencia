@@ -1,6 +1,6 @@
 require_relative 'Ave'
 require_relative 'Modulos'
 class Paloma < Ave
-        include Volador
-        include Herbivoro
+        include Habilidades::Volador
+        include Alimentacion::Herbivoro
 end

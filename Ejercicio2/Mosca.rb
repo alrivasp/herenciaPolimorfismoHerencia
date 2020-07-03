@@ -1,6 +1,6 @@
 require_relative 'Insecto'
 require_relative 'Modulos'
 class Mosca < Insecto
-    include Volador        
-    include Herbivoro        
+    include Habilidades::Volador        
+    include Alimentacion::Herbivoro        
 end
